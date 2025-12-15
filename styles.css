@@ -1,0 +1,171 @@
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; }
+body { 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+.navbar { 
+  display: flex;
+   justify-content: space-between;
+    align-items: center; 
+    background-color: #93aec6; 
+    padding: 10px 30px; 
+    color: white;
+   }
+.logo-container { 
+  display: flex; 
+  align-items: center;
+ }
+.logo { 
+  height: 50px;
+   margin-right: 10px;
+   }
+.university-name { 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
+.nav-links { 
+  list-style: none; 
+  display: flex; 
+  gap: 25px;
+ }
+.nav-links a { 
+  text-decoration: none; 
+  color: white; 
+  font-weight: 500; 
+  transition: color 0.3s ease;
+ }
+.nav-links a:hover { 
+  color: #ffcc00;
+ } 
+ .nav-links a:hover {
+   color: #ffcc00;
+   }
+.search-bar { 
+  display: flex; 
+  align-items: center; 
+  gap: 5px;
+ }
+.search-bar input { 
+  padding: 6px 10px; 
+  border: none; 
+  border-radius: 4px; 
+}
+.search-bar button { 
+  padding: 6px 12px; 
+  background-color: #ffcc00; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-weight: bold; 
+}
+.search-bar button:hover { 
+  background-color: #e6b800; 
+} 
+.image-row { 
+  display: flex; 
+  justify-content:center; 
+  gap: 20px; 
+  flex-wrap: wrap;
+ }
+.image-row img { 
+  width: 18.5vw; 
+  height: 30vh; 
+  object-fit: cover;
+   border: 3px solid #007BFF; 
+   border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.image-row img:hover { 
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ } 
+.site-footer { 
+  background-color: #000;
+color: #fff;
+text-align: center;
+ padding: 15px 0; 
+ font-size: 0.95rem; 
+ position: relative; 
+ bottom: 0; 
+ width: 100%; 
+ padding-top: 10px; 
+}
+ h1{ 
+  font-size: 30px; 
+  text-align: center; 
+} 
+h2{ 
+  font-size: 50px; 
+  text-align: center; 
+  color : red
+} 
+p{ 
+  font-size: 30px; 
+  padding: 10px ; 
+} 
+.banner { 
+  width: 100vw; 
+  height: auto;
+transition: transform 0.3s ease, 
+box-shadow 0.3s ease; 
+} 
+.marquee-container { 
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding: 15px 0; 
+  padding: 20px; 
+}
+.marquee-container img {
+  height: 100px;
+  width: auto;
+  margin: 0 20px;
+  border-radius: 10px;
+  border: 3px solid lightblue;
+  transition: transform 0.3s ease;
+
+}
+
+.marquee-container img:hover {
+  transform: translatex(-15px);
+}
+.newhead{
+  font-size: 30px;
+  padding-left: 10px;
+  }
+.newpar{ 
+  font-size: 20px; 
+  padding: 0px; } 
+  .info-wrapper { 
+    padding: 10px; 
+    max-width: 900px; 
+    margin: auto; 
+  }
+.column-wrapper { 
+  padding: 10px; 
+  max-width: 900px; 
+  margin: auto;
+ }
+.info-box { 
+  display: flex; 
+  align-items: center;
+   background-color: #f5f5f5; 
+   border-radius: 10px; 
+   padding: 10px;
+   border: 1px solid;
+   }
+.info-box img { 
+  width: 120px; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-right: 15px;
+ }
+.info-text h3 {
+   margin-bottom: 8px; 
+  font-size: 1.3rem; 
+}
+.info-text p { 
+  font-size: 1rem;
+   line-height: 1.5;
+   }
+
